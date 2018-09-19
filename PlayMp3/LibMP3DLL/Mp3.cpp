@@ -4,6 +4,8 @@
 #include "Mp3.h"
 #include <uuids.h>
 
+#pragma comment(lib, "strmiids.lib")
+
 Mp3::Mp3()
 {
 	pigb = NULL;

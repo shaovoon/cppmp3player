@@ -40,7 +40,7 @@
 
 
 
-#pragma comment(lib, "strmiids.lib")
+
 
 
 
