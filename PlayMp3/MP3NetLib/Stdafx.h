@@ -9,4 +9,3 @@
 // Windows Header Files:
 #include <windows.h>
 
-#pragma comment(lib, "strmiids.lib")
