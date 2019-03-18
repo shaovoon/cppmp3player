@@ -173,6 +173,18 @@ __int64 Mp3::GetCurrentPosition()
 	return -1;
 }
 
+bool Mp3::GetPositions(__int64* pCurrent, __int64* pStop)
+{
+	if (ready&&pims)
+	{
+		HRESULT hr = pims->GetPositions(pCurrent, pStop);
+		if (SUCCEEDED(hr))
+			return true;
+	}
+
+	return false;
+}
+
 bool Mp3::SetPositions(__int64* pCurrent, __int64* pStop, bool bAbsolutePositioning)
 {
 	if (ready&&pims)

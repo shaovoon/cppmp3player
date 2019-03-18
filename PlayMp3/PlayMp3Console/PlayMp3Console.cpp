@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "../LibMP3/Mp3.h"
+#include "../Common/Mp3.h"
 
 #ifdef _DEBUG
 	#pragma comment(lib, "../Debug/LibMP3.lib")

@@ -26,3 +26,5 @@ extern "C" __int64 LIBMP3_API __stdcall GetDuration();
 extern "C" __int64 LIBMP3_API __stdcall GetCurrentPosition();
 
 extern "C" bool LIBMP3_API __stdcall SetPositions(__int64* pCurrent, __int64* pStop, bool bAbsolutePositioning);
+
+extern "C" bool LIBMP3_API __stdcall GetPositions(__int64* pCurrent, __int64* pStop);

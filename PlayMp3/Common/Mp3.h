@@ -45,7 +45,8 @@ public:
 
 	// Seek to position
 	bool SetPositions(__int64* pCurrent, __int64* pStop, bool bAbsolutePositioning);
-
+	bool GetPositions(__int64* pCurrent, __int64* pStop);
+	
 private:
 	IGraphBuilder *  pigb;
 	IMediaControl *  pimc;

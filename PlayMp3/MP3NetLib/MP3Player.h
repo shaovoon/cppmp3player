@@ -1,6 +1,6 @@
 #pragma once
 
-#include "..\\LibMP3\\mp3.h"
+#include "..\\Common\\mp3.h"
 
 #ifdef _DEBUG
 	#pragma comment(lib, "..\\Debug\\LibMP3.lib")

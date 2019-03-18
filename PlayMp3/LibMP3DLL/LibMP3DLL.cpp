@@ -102,3 +102,11 @@ extern "C" bool LIBMP3_API __stdcall SetPositions(__int64* pCurrent, __int64* pS
 
 	return false;
 }
+
+extern "C" bool LIBMP3_API __stdcall GetPositions(__int64* pCurrent, __int64* pStop)
+{
+	if (g_pMp3)
+		return g_pMp3->GetPositions(pCurrent, pStop);
+
+	return false;
+}

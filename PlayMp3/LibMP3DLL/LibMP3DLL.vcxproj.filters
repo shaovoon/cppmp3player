@@ -27,10 +27,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mp3.h">
+    <ClInclude Include="LibMP3DLL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LibMP3DLL.h">
+    <ClInclude Include="..\Common\Mp3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,7 +44,7 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mp3.cpp">
+    <ClCompile Include="..\Common\Mp3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

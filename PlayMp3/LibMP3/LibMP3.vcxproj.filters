@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mp3.h">
+    <ClInclude Include="..\Common\Mp3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mp3.cpp">
+    <ClCompile Include="..\Common\Mp3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
