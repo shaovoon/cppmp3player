@@ -1,8 +1,11 @@
-// MP3.h
+// The MIT License (MIT)
+// Windows DirectShow MP3 Player 0.7.3
+// Copyright (C) 2008 - 2022 by Shao Voon Wong (shaovoon@yahoo.com)
+//
+// http://opensource.org/licenses/MIT
+#pragma once
 
-//#include <windows.h>
 #include <mmsystem.h>
-//#include <streams.h>
 #include <strmif.h>
 #include <control.h>
 

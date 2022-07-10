@@ -1,4 +1,8 @@
-// MP3.cpp
+// The MIT License (MIT)
+// Windows DirectShow MP3 Player 0.7.3
+// Copyright (C) 2008 - 2022 by Shao Voon Wong (shaovoon@yahoo.com)
+//
+// http://opensource.org/licenses/MIT
 
 #include "stdafx.h"
 #include "Mp3.h"
